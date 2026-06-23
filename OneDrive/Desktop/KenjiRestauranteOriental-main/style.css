@@ -2,7 +2,7 @@
    KENJI RESTAURANTE ORIENTAL — Folha de Estilos Principal
    ============================================================ */
 
-/* ======= VARIÁVEIS GLOBAIS (Design Tokens) ======= */
+/* ======= VARIÁVEIS GLOBAIS (Design Tokens) ======== */
 
 *{
   margin: 0;
@@ -227,7 +227,7 @@ img {
 }
 
 
-/* ======= HERO ======= */
+/* ======= HERO ======== */
 #hero {
 
   position: relative;
@@ -240,13 +240,17 @@ img {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('../img/Guioza.jpeg');
+  /* EXTENSÃO CORRIGIDA PARA .jpg (Igual ao arquivo físico da sua pasta) */
+  background-image: url(./img/guioza.png);
   background-size: cover;
   background-position: center 40%;
   filter: brightness(0.32) saturate(0.6);
   transform: scale(1.04);
   transition: transform 8s ease;
 }
+
+
+
 
 #hero:hover .hero-bg {
   transform: scale(1);
@@ -1027,7 +1031,7 @@ footer {
 #hero-agendamento .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('./img/Guioza.jpeg');
+  background-image: url(./img/guioza.png);
   background-size: cover;
   background-position: center 40%;
   filter: brightness(0.32) saturate(0.6);

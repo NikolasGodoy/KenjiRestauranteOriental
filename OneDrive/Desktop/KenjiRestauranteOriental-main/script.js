@@ -5,7 +5,7 @@
    ============================================================ */
 
 
-/* ======= VARIÁVEIS GLOBAIS ======= */
+/* ======= VARIÁVEIS GLOBAIS ========= */
 let navBar            = null;
 let revealElements    = null;
 let mobileNavLinks    = null;

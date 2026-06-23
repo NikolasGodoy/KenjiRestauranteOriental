@@ -1,10 +1,10 @@
-*{
+*{ 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* 1. Definição das variáveis (garante que o código encontre as cores e fontes) */
+/* 1. Definição das variáveis (garante que o código encontre as cores e fontes)) */
 :root {
   --red: #CC0000;
   --red-light: #ff1a1a;

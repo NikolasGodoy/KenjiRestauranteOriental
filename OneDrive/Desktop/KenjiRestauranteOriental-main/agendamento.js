@@ -4,7 +4,7 @@ const inputHorario = document.getElementById('horarioSelecionado');
 
 // Adiciona efeito de scroll na navbar
 window.addEventListener('scroll', () => {
-    const nav = document.querySelector('.navbar-kenji');
+    const nav = document.querySelector('.navbar-kenji'); // Certifique-se de que a classe corresponde à sua navbar
     if (window.scrollY > 50) {
         nav.classList.add('scrolled');
     } else {
@@ -12,7 +12,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Lógica de + e - (1 a 10)
+// Lógicaa de + e - (1 a 10)
 document.getElementById('btnInc').addEventListener('click', () => {
     let val = parseInt(inputPessoas.value);
     if (val < 10) inputPessoas.value = val + 1;
