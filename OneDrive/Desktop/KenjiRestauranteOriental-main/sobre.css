@@ -1,0 +1,168 @@
+/* ============================================================
+   KENJI RESTAURANTE ORIENTAL — Estilos da página Sobre
+   Folha de estilos exclusiva para sobre.html
+   ============================================================ */
+
+
+/* ---- Hero da página Sobre ---- */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#hero-sobre {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+#hero-sobre .hero-bg {
+  background-image: url('../img/img_restaurante_1.webp');
+  background-position: center center;
+}
+
+/* ---- Título hero — mesmos valores de .hero-title em style.css ---- */
+#hero-sobre .hero-title {
+  font-family: var(--font-jp);
+  font-size: clamp(2.6rem, 6vw, 5rem);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+
+/* ---- Wrapper que controla a largura máxima do carousel ---- */
+.carousel-kenji-wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+
+/* ---- Carousel customizado ---- */
+#carouselKenji {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55);
+  border: 1px solid var(--black-4);
+}
+
+/* Proporção consistente: todas as imagens em 16:9, sem cortes agressivos */
+#carouselKenji .carousel-item {
+  overflow: hidden;
+}
+
+#carouselKenji .carousel-item img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+  filter: brightness(0.88);
+  transition: filter 0.5s ease;
+}
+
+#carouselKenji .carousel-item.active img {
+  filter: brightness(0.95);
+}
+
+#carouselKenji .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s;
+}
+
+#carouselKenji .carousel-indicators .active {
+  background-color: var(--red);
+}
+
+#carouselKenji .carousel-control-prev,
+#carouselKenji .carousel-control-next {
+  width: 44px;
+  height: 44px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: background var(--transition);
+  margin: 0 10px;
+}
+
+#carouselKenji .carousel-control-prev:hover,
+#carouselKenji .carousel-control-next:hover {
+  background: rgba(204, 0, 0, 0.6);
+}
+
+
+/* ---- Cards de valores ---- */
+.valores-card {
+  background: var(--black-3);
+  border: 1px solid var(--black-4);
+  border-top: 2px solid var(--red-dark);
+  border-radius: var(--radius);
+  padding: 36px 28px;
+  height: 100%;
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+  text-align: center;
+}
+
+.valores-card:hover {
+  border-top-color: var(--red);
+  border-color: rgba(204, 0, 0, 0.35);
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
+}
+
+.valores-icon {
+  width: 64px;
+  height: 64px;
+  background: rgba(204, 0, 0, 0.1);
+  border: 1px solid rgba(204, 0, 0, 0.25);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--red);
+  font-size: 1.6rem;
+  margin: 0 auto 20px;
+}
+
+.valores-title {
+  font-family: var(--font-jp);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 14px;
+}
+
+.valores-desc {
+  font-size: .88rem;
+  color: var(--grey);
+  line-height: 1.8;
+}
+
+
+/* ---- Responsivo ---- */
+@media (max-width: 767px) {
+  /* aspect-ratio cuida do carousel automaticamente — sem altura fixa */
+  #hero-sobre {
+    min-height: 70vh;
+  }
+
+  #hero-sobre .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .carousel-kenji-wrapper {
+    max-width: 100%;
+  }
+}

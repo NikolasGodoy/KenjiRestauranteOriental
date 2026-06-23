@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre o Restaurante | Kenji Restaurante Oriental</title>
+  <link rel="icon" type="image/png" href="./img/favicon.png" />
+
+  <meta name="description" content="Conheça a história do Kenji Restaurante Oriental — tradição japonesa desde 2018 no coração de São Paulo, Avenida Paulista." />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Google Fonts: Noto Serif JP + Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="top-dishes.css"/>
+  <link rel="stylesheet" href="sobre.css"/>
+</head>
+<body>
+
+<!-- Barra de progresso de leitura -->
+<div id="barraProgresso"></div>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar navbar-expand-lg navbar-kenji fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand navbar-brand-kenji" href="index.html">
+      <span>賢治</span> Kenji Restaurante
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav align-items-lg-center gap-lg-1 me-lg-3">
+        <li class="nav-item"><a class="nav-link nav-link-kenji" style="color:var(--white) !important;" href="sobre.html">Sobre o Restaurante</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-kenji" href="index.html#cardapio">Cardápio</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-kenji" href="index.html#galeria">Mais Pedidos</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-kenji" href="index.html#delivery">Delivery</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-kenji" href="index.html#contato">Contato</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-kenji" href="agendamento.html">Agendamento</a></li>
+      </ul>
+      <a href="https://www.instagram.com/kenji_restaurante_oriental/" target="_blank" class="btn btn-reserva">
+        <i class="bi bi-instagram me-1"></i> Siga-nos
+      </a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ===================== HERO ===================== -->
+<section id="hero-sobre">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="kanji-deco" style="right:-40px; top:10%; opacity:.025;">歴</div>
+  <div class="kanji-deco" style="left:-60px; bottom:5%; font-size:160px; opacity:.018;">史</div>
+
+  <div class="container position-relative" style="z-index:2; padding-top:80px;">
+    <div class="row">
+      <div class="col-lg-9 col-xl-8">
+        <div class="hero-badge reveal">
+          <i class="bi bi-building"></i> Desde 2018 · Av. Paulista, Bela Vista
+        </div>
+        <h1 class="hero-title reveal">
+          Uma Tradição Japonesa no<br><em>Coração de São Paulo</em>
+        </h1>
+        <p class="hero-jp reveal">賢治レストランの歴史 — 伝統と情熱</p>
+        <p class="hero-desc reveal">
+          Sabores autênticos, tradição familiar e a verdadeira experiência da culinária japonesa.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4 reveal">
+          <a href="#historia" class="btn btn-reserva" style="font-size:.85rem; padding:12px 30px;">
+            Nossa História <i class="bi bi-arrow-down ms-1"></i>
+          </a>
+          <a href="index.html" class="btn btn-outline-red" style="padding:12px 30px;">
+            Voltar ao Início
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <i class="bi bi-chevron-down" style="font-size:20px;"></i>
+    <span>Role</span>
+  </div>
+</section>
+
+
+<!-- ===================== HISTÓRIA ===================== -->
+<section id="historia" style="padding: var(--section-padding) 0;">
+  <div class="container">
+
+    <div class="text-center reveal mb-5">
+      <p class="section-subtitle">Nossa história / 私たちの物語</p>
+      <h2 class="section-title">O Kenji Restaurante Oriental</h2>
+      <div class="divider-jp"><span>&#x2767;</span></div>
+      <p style="color:var(--grey); max-width:580px; margin:10px auto 0; font-size:.92rem; line-height:1.75;">
+        Uma história de <strong style="color:var(--grey-light);">tradição</strong>, superação e amor pela culinária japonesa.
+      </p>
+    </div>
+
+    <div class="row align-items-start g-5">
+
+      <div class="col-lg-6 reveal">
+        <span class="sobre-tag">Desde 2018 / 2018年創業</span>
+        <h3 class="section-title mt-3 mb-4" style="font-size:clamp(1.4rem,3vw,2rem);">
+          De um sonho à referência<br>da culinária oriental em SP
+        </h3>
+
+        <p style="color:var(--grey-light); font-size:.95rem; line-height:1.9;">
+          O <strong style="color:var(--white);">Kenji Restaurante Oriental</strong> nasceu em
+          <strong style="color:var(--red);">2018</strong> quando seu atual proprietário assumiu o espaço
+          anteriormente ocupado pelo <em>Mr. Bento</em>, uma franquia que havia conquistado muitos clientes,
+          mas encerrou suas atividades devido a problemas de gestão.
+        </p>
+
+        <p style="color:var(--grey-light); font-size:.92rem; margin-top:20px; line-height:1.85;">
+          A partir desse momento surgiu o <strong style="color:var(--white);">Kenji Restaurante Oriental</strong>,
+          um restaurante de origem familiar japonesa dedicado a preservar a tradição da culinária oriental,
+          especialmente da gastronomia japonesa.
+        </p>
+
+        <p style="color:var(--grey); font-size:.88rem; margin-top:16px; line-height:1.8;">
+          Ao longo dos anos, o restaurante enfrentou desafios importantes, incluindo os impactos da
+          <strong style="color:var(--grey-light);">pandemia</strong>, a forte concorrência da região e a
+          dificuldade de visibilidade por estar localizado dentro de uma galeria comercial na
+          <strong style="color:var(--white);">Avenida Paulista</strong>.
+        </p>
+
+        <p style="color:var(--grey); font-size:.88rem; margin-top:12px; line-height:1.8;">
+          Mesmo diante dessas dificuldades, o restaurante manteve seu compromisso de oferecer
+          <strong style="color:var(--grey-light);">refeições de qualidade</strong>, preços justos e uma
+          experiência autêntica, aproximando os clientes da rotina gastronômica vivida no Japão.
+        </p>
+
+        <p style="color:var(--grey-light); font-size:.92rem; margin-top:20px; line-height:1.85;">
+          Hoje o Kenji Restaurante Oriental continua crescendo e recebendo clientes que procuram uma
+          experiência tradicional da culinária japonesa em São Paulo.
+        </p>
+
+        <div class="mt-4 d-flex gap-3 flex-wrap">
+          <a href="index.html#cardapio" class="btn btn-reserva" style="font-size:.82rem; padding:11px 26px;">
+            Ver Cardápio <i class="bi bi-arrow-right ms-1"></i>
+          </a>
+          <a href="#espaco" class="btn btn-outline-red" style="padding:11px 26px; font-size:.82rem;">
+            Conheça o Espaço
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-6 reveal">
+        <div class="mb-4">
+          <div class="sobre-feature">
+            <div class="icon"><i class="bi bi-award-fill"></i></div>
+            <div>
+              <strong style="font-size:.9rem;">Qualidade Artesanal</strong>
+              <p class="mb-0" style="font-size:.8rem; color:var(--grey);">Cada prato preparado com cuidado artesanal e técnicas tradicionais japonesas.</p>
+            </div>
+          </div>
+          <div class="sobre-feature">
+            <div class="icon"><i class="bi bi-geo-alt-fill"></i></div>
+            <div>
+              <strong style="font-size:.9rem;">Av. Paulista, Bela Vista</strong>
+              <p class="mb-0" style="font-size:.8rem; color:var(--grey);">No coração de São Paulo, dentro da galeria comercial do número 1274.</p>
+            </div>
+          </div>
+          <div class="sobre-feature">
+            <div class="icon"><i class="bi bi-people-fill"></i></div>
+            <div>
+              <strong style="font-size:.9rem;">Origem Familiar Japonesa</strong>
+              <p class="mb-0" style="font-size:.8rem; color:var(--grey);">Um negócio familiar com raízes genuínas na cultura e culinária japonesa.</p>
+            </div>
+          </div>
+          <div class="sobre-feature">
+            <div class="icon"><i class="bi bi-heart-fill"></i></div>
+            <div>
+              <strong style="font-size:.9rem;">Compromisso com a Tradição</strong>
+              <p class="mb-0" style="font-size:.8rem; color:var(--grey);">Preservar a autenticidade dos sabores japoneses é nossa missão diária.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-3 mt-2">
+          <div class="col-6">
+            <div class="sobre-highlight-card">
+              <div class="sobre-highlight-icon"><i class="bi bi-calendar3"></i></div>
+              <div class="sobre-highlight-title">Desde 2018</div>
+              <div class="sobre-highlight-desc">Servindo culinária japonesa autêntica com tradição e qualidade</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="sobre-highlight-card">
+              <div class="sobre-highlight-icon"><i class="bi bi-globe-asia-australia"></i></div>
+              <div class="sobre-highlight-title">Inspirado no Japão</div>
+              <div class="sobre-highlight-desc">Experiência gastronômica próxima do dia a dia japonês</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="sobre-highlight-card">
+              <div class="sobre-highlight-icon"><i class="bi bi-star-fill"></i></div>
+              <div class="sobre-highlight-title">Receitas Tradicionais</div>
+              <div class="sobre-highlight-desc">Ingredientes selecionados e técnicas de preparo autênticas</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="sobre-highlight-card">
+              <div class="sobre-highlight-icon"><i class="bi bi-bag-check-fill"></i></div>
+              <div class="sobre-highlight-title">Presencial e Delivery</div>
+              <div class="sobre-highlight-desc">Atendimento no restaurante e entrega rápida pelo iFood</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== CAROUSEL ===================== -->
+<section id="espaco" style="padding: var(--section-padding) 0; background: var(--black-2); border-top: 1px solid var(--black-4); border-bottom: 1px solid var(--black-4);">
+  <div class="container">
+
+    <div class="text-center reveal mb-5">
+      <p class="section-subtitle">空間 / Nosso Espaço</p>
+      <h2 class="section-title">Conheça Nosso Espaço</h2>
+      <div class="divider-jp"><span>&#x2767;</span></div>
+      <p style="color:var(--grey); max-width:520px; margin:0 auto; font-size:.9rem; line-height:1.75;">
+        Um ambiente acolhedor que convida você a vivenciar a atmosfera autêntica da culinária japonesa.
+      </p>
+    </div>
+
+    <div class="reveal carousel-kenji-wrapper">
+      <div
+        id="carouselKenji"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="3500"
+        data-bs-wrap="true"
+      >
+
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselKenji" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Foto 1"></button>
+          <button type="button" data-bs-target="#carouselKenji" data-bs-slide-to="1" aria-label="Foto 2"></button>
+          <button type="button" data-bs-target="#carouselKenji" data-bs-slide-to="2" aria-label="Foto 3"></button>
+          <button type="button" data-bs-target="#carouselKenji" data-bs-slide-to="3" aria-label="Foto 4"></button>
+          <button type="button" data-bs-target="#carouselKenji" data-bs-slide-to="4" aria-label="Foto 5"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img
+              src="./img/img_restaurante_1.webp"
+              class="d-block w-100"
+              alt="Kenji Restaurante Oriental — Espaço 1"
+              loading="eager"
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="./img/img_restaurante_2.webp"
+              class="d-block w-100"
+              alt="Kenji Restaurante Oriental — Espaço 2"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="./img/img_restaurante_3.webp"
+              class="d-block w-100"
+              alt="Kenji Restaurante Oriental — Espaço 3"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="./img/img_restaurante_4.webp"
+              class="d-block w-100"
+              alt="Kenji Restaurante Oriental — Espaço 4"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="./img/img_restaurante_5.webp"
+              class="d-block w-100"
+              alt="Kenji Restaurante Oriental — Espaço 5"
+              loading="lazy"
+            />
+          </div>
+
+        </div>
+
+        <!-- Controle: anterior -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselKenji" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <!-- Controle: próximo -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselKenji" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================== VALORES ===================== -->
+<section id="valores" style="padding: var(--section-padding) 0;">
+  <div class="container">
+
+    <div class="text-center reveal mb-5">
+      <p class="section-subtitle">理念 / Nossos Valores</p>
+      <h2 class="section-title">O Que Nos Move</h2>
+      <div class="divider-jp"><span>&#x2767;</span></div>
+    </div>
+
+    <div class="row g-4 reveal">
+
+      <div class="col-md-4">
+        <div class="valores-card">
+          <div class="valores-icon"><i class="bi bi-bullseye"></i></div>
+          <div class="valores-title">Nossa Missão</div>
+          <div class="valores-desc">
+            Servir pratos orientais tradicionais com <strong style="color:var(--grey-light);">qualidade</strong>,
+            preço justo e autenticidade, oferecendo aos nossos clientes uma experiência gastronômica
+            verdadeiramente japonesa.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="valores-card">
+          <div class="valores-icon"><i class="bi bi-clock-history"></i></div>
+          <div class="valores-title">Nossa História</div>
+          <div class="valores-desc">
+            Mais de uma <strong style="color:var(--grey-light);">década de paixão</strong> pela culinária
+            japonesa e dedicação aos clientes. Uma jornada de superação e crescimento contínuo desde 2018.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="valores-card">
+          <div class="valores-icon"><i class="bi bi-globe-asia-australia"></i></div>
+          <div class="valores-title">Nossa Experiência</div>
+          <div class="valores-desc">
+            Proporcionar aos visitantes uma <strong style="color:var(--grey-light);">experiência gastronômica</strong>
+            que remeta ao cotidiano e à cultura japonesa, sem sair de São Paulo.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-5 pt-3 reveal">
+      <a href="index.html#cardapio" class="btn btn-reserva me-3" style="font-size:.85rem; padding:12px 30px;">
+        Ver Cardápio <i class="bi bi-arrow-right ms-1"></i>
+      </a>
+      <a href="index.html#contato" class="btn btn-outline-red" style="padding:12px 30px;">
+        Entre em Contato
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <div class="footer-logo"><span>賢治</span> Kenji Restaurante Oriental</div>
+        <p style="font-size:.78rem; color:var(--grey); margin-top:8px; margin-bottom:0;">
+          Culinária Japonesa Tradicional
+        </p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <div class="footer-jp">食・和・心</div>
+        <div style="font-size:.75rem; color:var(--black-4); margin-top:4px;">Comida · Harmonia · Coração</div>
+      </div>
+    </div>
+    <hr class="footer-hr" />
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+      <p class="footer-copy mb-0">© <span id="anoFooter">2026</span> Kenji Restaurante Oriental. Todos os direitos reservados.</p>
+      <div class="d-flex gap-3">
+        <a href="index.html" style="font-size:.75rem; color:var(--grey);">Início</a>
+        <a href="index.html#cardapio" style="font-size:.75rem; color:var(--grey);">Cardápio</a>
+        <a href="index.html#galeria" style="font-size:.75rem; color:var(--grey);">Mais Pedidos</a>
+        <a href="https://www.instagram.com/kenji_restaurante_oriental/" target="_blank" style="font-size:.75rem; color:var(--red);">
+          <i class="bi bi-instagram"></i> Instagram
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Botão voltar ao topo -->
+<button id="btnTopo" title="Voltar ao topo">
+  <i class="bi bi-chevron-up"></i>
+</button>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+<!-- VLibras -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,2109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenji Restaurante Oriental | Culinária Tradicional</title>
+  <link rel="icon" type="image/png" href="./img/favicon.png" />
+
+
+
+
+  <meta name="description" content="Kenji Restaurante Oriental — Culinária japonesa tradicional. Teishoku, Yakisoba, Ramen, Curry, Domburi e muito mais." />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Google Fonts: Noto Serif JP + Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="top-dishes.css"/>
+</head>
+<body>
+
+<!-- Barra de progresso de leitura -->
+<div id="barraProgresso"></div>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar navbar-expand-lg navbar-kenji fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand navbar-brand-kenji" href="#hero">
+      <span>賢治</span> Kenji Restaurante
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav align-items-lg-center gap-lg-1 me-lg-3">
+        <li class="nav-item"><a class="nav-link nav-link-kenji" href="sobre.html">Sobre o Restaurante</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-kenji" href="#cardapio">Cardápio</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-kenji" href="#galeria">Mais Pedidos</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-kenji" href="#delivery">Delivery</a></li>
+<li class="nav-item"><a class="nav-link nav-link-kenji" href="#contato">Contato</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-kenji" href="agendamento.html">Agendamento</a></li>
+      </ul>
+      <a href="https://www.instagram.com/kenji_restaurante_oriental/" target="_blank" class="btn btn-reserva">
+        <i class="bi bi-instagram me-1"></i> Siga-nos
+      </a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ===================== HERO ===================== -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="kanji-deco" style="right:-40px; top:10%; opacity:.025;">食</div>
+  <div class="kanji-deco" style="left:-60px; bottom:5%; font-size:160px; opacity:.018;">和</div>
+
+  <div class="container position-relative" style="z-index:2; padding-top:80px;">
+    <div class="row">
+      <div class="col-lg-9 col-xl-8">
+        <div class="hero-badge reveal">
+          <i class="bi bi-geo-alt-fill"></i> Culinária Japonesa Tradicional
+        </div>
+        <h1 class="hero-title reveal">
+          Sabores que<br>atravessam <em>o mar</em>
+        </h1>
+        <p class="hero-jp reveal">健二レストラン・日本の伝統料理</p>
+        <p class="hero-desc reveal">
+          Do Teishoku ao Yakisoba, do Ramen ao Domburi — a essência da culinária japonesa servida com autenticidade e carinho no coração do Brasil.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4 reveal">
+          <a href="#cardapio" class="btn btn-reserva" style="font-size:.85rem; padding:12px 30px;">
+            Ver Cardápio <i class="bi bi-arrow-down ms-1"></i>
+          </a>
+          <a href="#galeria" class="btn btn-outline-red" style="padding:12px 30px;">
+            Galeria de Pratos
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <i class="bi bi-chevron-down" style="font-size:20px;"></i>
+    <span>Role</span>
+  </div>
+</section>
+
+
+<!-- ===================== SOBRE ===================== -->
+<section id="sobre" style="padding: var(--section-padding) 0;">
+  <div class="container">
+
+    <div class="row align-items-center g-5">
+
+      <div class="col-lg-6 reveal">
+        <p class="section-subtitle">Nossa história / 私たちの物語</p>
+        <h2 class="section-title">Uma Tradição Japonesa no<br>Coração de São Paulo</h2>
+        <div class="divider-jp" style="justify-content:flex-start; margin-left:0;"><span>&#x2767;</span></div>
+        <p style="color:var(--grey-light); font-size:.95rem; line-height:1.85; margin-bottom:16px;">
+          O <strong style="color:var(--white);">Kenji Restaurante Oriental</strong> nasceu em
+          <strong style="color:var(--red);">2018</strong> com a missão de preservar a autêntica
+          culinária japonesa em São Paulo. Uma história de tradição, superação e amor pelos
+          sabores do Japão, servidos com qualidade e preços justos no coração da Avenida Paulista.
+        </p>
+        <p style="color:var(--grey); font-size:.88rem; line-height:1.8;">
+          De origem familiar, o restaurante manteve seu compromisso com a excelência mesmo
+          diante dos desafios da pandemia e da forte concorrência da região — aproximando
+          seus clientes da rotina gastronômica vivida no Japão.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="sobre.html" class="btn btn-reserva" style="font-size:.85rem; padding:12px 30px;">
+            Conheça Nossa História <i class="bi bi-arrow-right ms-1"></i>
+          </a>
+          <a href="sobre.html#espaco" class="btn btn-outline-red" style="padding:12px 30px; font-size:.85rem;">
+            Ver o Espaço
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-6 reveal">
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="sobre-highlight-card">
+              <div class="sobre-highlight-icon"><i class="bi bi-calendar3"></i></div>
+              <div class="sobre-highlight-title">Desde 2018</div>
+              <div class="sobre-highlight-desc">Servindo culinária japonesa autêntica com tradição e qualidade</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="sobre-highlight-card">
+              <div class="sobre-highlight-icon"><i class="bi bi-globe-asia-australia"></i></div>
+              <div class="sobre-highlight-title">Inspirado no Japão</div>
+              <div class="sobre-highlight-desc">Experiência gastronômica próxima do dia a dia japonês</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="sobre-highlight-card">
+              <div class="sobre-highlight-icon"><i class="bi bi-star-fill"></i></div>
+              <div class="sobre-highlight-title">Receitas Tradicionais</div>
+              <div class="sobre-highlight-desc">Ingredientes selecionados e técnicas de preparo autênticas</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="sobre-highlight-card">
+              <div class="sobre-highlight-icon"><i class="bi bi-bag-check-fill"></i></div>
+              <div class="sobre-highlight-title">Presencial e Delivery</div>
+              <div class="sobre-highlight-desc">Atendimento no restaurante e entrega rápida pelo iFood</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================== CARDÁPIO ===================== -->
+<section id="cardapio">
+  <div class="container">
+
+    <div class="text-center reveal mb-5">
+      <p class="section-subtitle">メニュー</p>
+      <h2 class="section-title">Cardápio</h2>
+      <div class="divider-jp"><span>&#x2767;</span></div>
+      <p style="color:var(--grey); max-width:520px; margin:0 auto; font-size:.9rem;">
+        Explore nossa culinária japonesa tradicional — pratos autênticos com sabores que transportam você direto ao Japão.
+      </p>
+    </div>
+
+    <!-- Tabs principais: Restaurante | Delivery -->
+    <ul class="nav justify-content-center menu-tabs reveal mb-4" id="mainCardapioTabs" role="tablist">
+      <li class="nav-item">
+        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#pane-restaurante">
+          <i class="bi bi-shop me-1"></i> Restaurante
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#pane-delivery-menu">
+          <i class="bi bi-bag me-1"></i> Delivery
+        </button>
+      </li>
+    </ul>
+
+    <div class="tab-content" id="mainCardapioContent">
+
+    <!-- ══ PANE: RESTAURANTE ══ -->
+    <div class="tab-pane fade show active" id="pane-restaurante">
+
+      <!-- Campo de busca -->
+      <div class="busca-cardapio reveal mb-4" id="buscaContainer">
+        <input type="text" id="campoBusca" class="busca-input" placeholder="Buscar prato..." autocomplete="off" />
+        <span id="resultadoBusca"></span>
+      </div>
+
+      <!-- Sub-tabs de categoria -->
+      <ul class="nav justify-content-center flex-wrap menu-tabs reveal mb-5" id="menuTabs" role="tablist">
+        <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-entradas">Entradas/Porções</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-teishoku">Teishokus</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-kare">Karês (Currys)</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-domburi">Domburis</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-macarrao">Macarrões</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-bento">Makunouchi Bentô</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-veg">Vegetariano</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-bebidas">Bebidas</button></li>
+      </ul>
+
+      <!-- Painel de resultados da busca -->
+      <div id="painelBusca" class="row g-3"></div>
+
+      <div class="tab-content reveal" id="tabContentCardapio">
+
+      <!-- ====== ENTRADAS ====== -->
+      <div class="tab-pane fade show active" id="tab-entradas">
+        <h3 class="menu-section-title">Porções Individuais e Entradas / 一品 前菜</h3>
+        <div class="row g-3">
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">P-1 Harumaki <span class="menu-item-jp">/ ミニ春まき (8)</span></div>
+                <div class="menu-item-desc">8 unidades de mini rolinhos primavera com recheio de carne.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;50</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">P-2 Saikoro Furai <span class="menu-item-jp">/ サイコロ フライ</span></div>
+                <div class="menu-item-desc">Dados de salmão empanados acompanhados de molho tarê.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;60</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">P-3 Oniguiri <span class="menu-item-jp">/ おにぎり カツオ／しゃけ</span></div>
+                <div class="menu-item-desc">Bolinho de arroz triangular levemente temperado com sal e alga marinha. Recheio em duas versões: raspa de peixe bonito ou salmão grelhado.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;25</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">P-4 Nikuman <span class="menu-item-jp">/ 肉まん (2)</span></div>
+                <div class="menu-item-desc">Duas unidades de pãozinho cozido ao vapor com recheio de carne suína e bovina moída com especiarias e repolho.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;20</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">P-5 Guioza <span class="menu-item-jp">/ ギョーザ (8)</span></div>
+                <div class="menu-item-desc">8 unidades de pasteizinhos japoneses recheados com mix de carne suína, bovina e repolho.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;50</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">P-6 Shimeji na manteiga <span class="menu-item-jp">/ しめじバター焼き</span></div>
+                <div class="menu-item-desc">Cogumelo Shimeji puxados na manteiga.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;65</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">P-7 Karaaguê <span class="menu-item-jp">/ 唐揚げ</span></div>
+                <div class="menu-item-desc">Frango empanado à moda oriental.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;60</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">P-8 Arroz ou Missôshiru <span class="menu-item-jp">/ ごはん、みそしる</span></div>
+                <div class="menu-item-desc">Arroz branco ou sopa de missô.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;12</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">P-9 Edamame <span class="menu-item-jp">/ 枝豆</span></div>
+                <div class="menu-item-desc">Vagem de soja cozida temperada.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;40</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====== TEISHOKU ====== -->
+      <div class="tab-pane fade" id="tab-teishoku">
+        <div class="menu-note">
+          <i class="bi bi-info-circle me-2"></i>Todos os pratos Teishoku e Teppanyaki acompanham <strong>Missôshiru e arroz branco</strong>.
+        </div>
+        <h3 class="menu-section-title">Teishoku / 定食</h3>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">T-1 Tonkatsu Teishoku <span class="menu-item-jp">/ とんかつ定食</span></div>
+                <div class="menu-item-desc">Empanado de carne suína à moda oriental.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;68</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">T-2 Chicken Katsu Teishoku <span class="menu-item-jp">/ とりかつ定食</span></div>
+                <div class="menu-item-desc">Empanado de frango à moda oriental.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;60</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">T-3 Karaaguê Teishoku <span class="menu-item-jp">/ 唐揚げ定食</span></div>
+                <div class="menu-item-desc">Frango temperado e empanado à moda oriental.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;70</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">T-4 Yakisakana Teishoku (Anchova) <span class="menu-item-jp">/ 焼き魚定食(マス)</span></div>
+                <div class="menu-item-desc">Anchova grelhada temperada no sal (tipicamente japonês).</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;68</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">T-5 Yakisakana Teishoku (Salmão) <span class="menu-item-jp">/ 焼き魚定食(鮭)</span></div>
+                <div class="menu-item-desc">Salmão grelhado temperado no sal (tipicamente japonês).</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;72</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">T-6 Shoga Yaki Teishoku <span class="menu-item-jp">/ しょが焼き定食</span></div>
+                <div class="menu-item-desc">Refogado de carne bovina ao molho de soja com gengibre.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;65</div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="menu-section-title mt-5">Teppanyaki Teishoku / 鉄焼き定食</h3>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">TP-1a Teppanyaki (Anchova) <span class="menu-item-jp">/ 鉄焼き (マス)</span></div>
+                <div class="menu-item-desc">Anchova grelhada na chapa quente com legumes, vegetais e cogumelos.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;75</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">TP-1s Teppanyaki (Salmão) <span class="menu-item-jp">/ 鉄焼き (鮭)</span></div>
+                <div class="menu-item-desc">Salmão grelhado na chapa quente com legumes, vegetais e cogumelos.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;80</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">TP-2 Teppanyaki de Frango <span class="menu-item-jp">/ 鉄焼き (鳥)</span></div>
+                <div class="menu-item-desc">Carne de frango (sobre coxa) grelhado na chapa quente com legumes, vegetais e cogumelos.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;65</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">TP-3 Teppanyaki Buta no Missôzuke <span class="menu-item-jp">/ 鉄焼き豚ロース味噌漬け</span></div>
+                <div class="menu-item-desc">Bife suíno marinado no Missô grelhado em chapa quente com legumes, vegetais e cogumelos.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;70</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====== KARÊS (CURRYS) ====== -->
+      <div class="tab-pane fade" id="tab-kare">
+        <h3 class="menu-section-title">Curry / カレー</h3>
+        <p class="menu-section-subtitle">Curry: especiarias mistas à base de cardemomo, coentro, etc.</p>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">K-1 Karê raice <span class="menu-item-jp">/ カレーライス</span></div>
+                <div class="menu-item-desc">Curry acompanhado com arroz branco.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;60</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">K-2 Tonkatsu karê <span class="menu-item-jp">/ とんかつカレー</span></div>
+                <div class="menu-item-desc">Curry com arroz branco e empanado de carne suína.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;78</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">K-3 Tôri katsu Karê <span class="menu-item-jp">/ 鳥かつカレー</span></div>
+                <div class="menu-item-desc">Curry com arroz branco e empanado de carne de frango.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;70</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====== DOMBURIS ====== -->
+      <div class="tab-pane fade" id="tab-domburi">
+        <h3 class="menu-section-title">Domburi / 丼</h3>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">D-1 Katsudom <span class="menu-item-jp">/ かつ丼</span></div>
+                <div class="menu-item-desc">Arroz coberto por empanado de carne suína envolto por ovo batido cozido no molho adocicado.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;73</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">D-2 Torikatsudom <span class="menu-item-jp">/ 鳥かつ丼</span></div>
+                <div class="menu-item-desc">Arroz coberto por carne de frango envolto por ovo batido cozido no molho adocicado.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;68</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">D-3 Shakê teriyakidom <span class="menu-item-jp">/ 鮭照り焼き丼</span></div>
+                <div class="menu-item-desc">Arroz coberto por pedaços de salmão ao molho Teriyaki.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;75</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">D-4 Tori teriyakidom <span class="menu-item-jp">/ 鳥照り焼き丼</span></div>
+                <div class="menu-item-desc">Arroz coberto por pedaços de frango ao molho Teriyaki.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;65</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">D-5 Yakinikudom <span class="menu-item-jp">/ 焼肉丼</span></div>
+                <div class="menu-item-desc">Arroz coberto por fatias de carne bovina ao molho de alho e Shoyu.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;73</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====== MACARRÃO ====== -->
+      <div class="tab-pane fade" id="tab-macarrao">
+        <h3 class="menu-section-title">Macarrão / 麺類</h3>
+
+        <div class="row g-3">
+          <div class="col-12">
+            <p class="mb-3" style="color:var(--grey); font-size:.85rem; border-left:2px solid var(--red-dark); padding-left:12px;">
+              <strong style="color:var(--white);">Yakisoba</strong> — macarrão frito com legumes e verduras
+            </p>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">M-1 Yakisoba tradicional <span class="menu-item-jp">/ 焼きそば (牛か鳥)</span></div>
+                <div class="menu-item-desc">Macarrão frito com legumes, verduras, carne bovina ou frango. (Pedir preferência ao atendente.)</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;63</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">M-2 Yakisoba completo <span class="menu-item-jp">/ 焼きそば (牛/鳥/エビ)</span></div>
+                <div class="menu-item-desc">Macarrão frito com legumes, verduras, cogumelos, carne bovina, frango e camarão.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;70</div>
+            </div>
+          </div>
+
+          <div class="col-12 mt-3">
+            <p class="mb-3" style="color:var(--grey); font-size:.85rem; border-left:2px solid var(--red-dark); padding-left:12px;">
+              <strong style="color:var(--white);">Lamen</strong> — macarrão chinês em caldo
+            </p>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">M-3 Tyashu Lamen <span class="menu-item-jp">/ チャーシューラーメン</span></div>
+                <div class="menu-item-desc">Macarrão chinês, fatias de lombo ao molho tarê, ovo cozido, alga marinha desidratada e cebolinha.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;68</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">M-4 Okinawa Lamen <span class="menu-item-jp">/ 沖縄ラーメン</span></div>
+                <div class="menu-item-desc">Macarrão chinês, panceta à moda oriental, ovo cozido, alga marinha e alho poró.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;72</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">M-5 Karê Lamen <span class="menu-item-jp">/ カレーラーメン</span></div>
+                <div class="menu-item-desc">Macarrão chinês e curry.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;63</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">M-6 Tonkatsu karê Lamen <span class="menu-item-jp">/ とんかつカレーラーメン</span></div>
+                <div class="menu-item-desc">Macarrão chinês, curry e empanado de carne suína.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;68</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">M-7 Tôri katsu karê Lamen <span class="menu-item-jp">/ トリカツカレーラーメン</span></div>
+                <div class="menu-item-desc">Macarrão chinês, curry e empanado de carne de frango.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;65</div>
+            </div>
+          </div>
+
+          <div class="col-12 mt-3">
+            <p class="mb-3" style="color:var(--grey); font-size:.85rem; border-left:2px solid var(--red-dark); padding-left:12px;">
+              <strong style="color:var(--white);">Udon</strong> — macarrão grosso de farinha de trigo
+            </p>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">M-8 Karê Udon <span class="menu-item-jp">/ カレーうどん</span></div>
+                <div class="menu-item-desc">Macarrão Udon com molho curry.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;62</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">M-9 Sakura Udon <span class="menu-item-jp">/ さくらうどん</span></div>
+                <div class="menu-item-desc">Udon com massa de peixe frito e temperado, cogumelo, alga marinha, ovo cozido e alho poró.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;70</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">M-10 Kenbo Udon <span class="menu-item-jp">/ 健坊うどん</span></div>
+                <div class="menu-item-desc">Udon com massa de peixe cozido, frango empanado, alga marinha, ovo cozido e alho poró.</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;70</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====== BENTÔ ====== -->
+      <div class="tab-pane fade" id="tab-bento">
+        <div class="row align-items-start g-5">
+          <div class="col-lg-7">
+            <h3 class="menu-section-title">Makunouchi Bentô / 幕の内弁当</h3>
+            <div class="menu-note">
+              <i class="bi bi-info-circle me-2"></i>Preço único: <strong>R$ 70,00</strong> por bentô.
+            </div>
+            <div class="d-flex flex-column gap-3">
+              <div class="menu-item">
+                <div class="menu-item-name">Tokyo Box <span class="menu-item-jp">(東京弁当)</span></div>
+                <div class="menu-item-desc">Empanado de carne suína, refogado de carne bovina ao molho de soja, salmão grelhado, pãozinho cozido ao vapor recheado com carne suína e repolho, Missôshiru e arroz branco.</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Ginza Box <span class="menu-item-jp">(銀座弁当)</span></div>
+                <div class="menu-item-desc">Pastelzinho japonês recheado mix de carne suína, bovina e repolho, empanado de carne de frango, salmão grelhado, pãozinho cozido ao vapor, Missôshiru e arroz branco.</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Nagoya Box <span class="menu-item-jp">(名古屋弁当)</span></div>
+                <div class="menu-item-desc">Pastelzinho japonês, frango ao molho tarê, salmão grelhado, pãozinho cozido ao vapor, Missôshiru e arroz branco.</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Osaka Box <span class="menu-item-jp">(大阪弁当)</span></div>
+                <div class="menu-item-desc">Salmão grelhado, cubinhos de salmão à milanesa, pãozinho cozido ao vapor, Missôshiru e arroz branco.</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Kyoto Box — Vegetariano <span class="menu-item-jp">(京都弁当)</span></div>
+                <div class="menu-item-desc">Pasteizinhos japoneses recheados com legumes e vegetais, Shimeji com alho puxados em óleo de gergelim, Rolinhos primavera, Missôshiru vegetariano e arroz branco.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====== VEGETARIANO ====== -->
+      <div class="tab-pane fade" id="tab-veg">
+        <div class="menu-note">
+          <i class="bi bi-leaf me-2" style="color:#4CAF50;"></i>Cardápio <strong>100% vegetariano</strong> — sem proteína animal.
+        </div>
+
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <h3 class="menu-section-title">Teishoku Vegetariano / ベジタリアン定食</h3>
+            <p class="menu-section-subtitle">Todos os pratos Teishoku acompanham Missôshiru e arroz branco.</p>
+            <div class="d-flex flex-column gap-3">
+              <div class="menu-item d-flex justify-content-between gap-3">
+                <div>
+                  <div class="menu-item-name">VT-1 Guioza Teishoku vegetariano <span class="menu-item-jp">/ ベジタリアンギョーザ定食</span></div>
+                  <div class="menu-item-desc">6 unidades de pasteizinhos japoneses recheados mix de legumes e vegetais.</div>
+                </div>
+                <div class="menu-item-price">R$&nbsp;65</div>
+              </div>
+              <div class="menu-item d-flex justify-content-between gap-3">
+                <div>
+                  <div class="menu-item-name">VT-2 Hambúrguer vegetariano <span class="menu-item-jp">/ ベジタリアンハンバーガー定食</span></div>
+                  <div class="menu-item-desc">Hambúrguer empanado feito de grão de bico.</div>
+                </div>
+                <div class="menu-item-price">R$&nbsp;55</div>
+              </div>
+            </div>
+
+            <h3 class="menu-section-title mt-5">Curry Vegetariano / ベジタリアンカレー</h3>
+            <div class="d-flex flex-column gap-3">
+              <div class="menu-item d-flex justify-content-between gap-3">
+                <div>
+                  <div class="menu-item-name">VC-1 Curry Vegetariano</div>
+                  <div class="menu-item-desc">Curry com champignons laminados, legumes, vegetais e arroz branco.</div>
+                </div>
+                <div class="menu-item-price">R$&nbsp;60</div>
+              </div>
+              <div class="menu-item d-flex justify-content-between gap-3">
+                <div>
+                  <div class="menu-item-name">VC-2 Curry com hambúrguer vegetariano</div>
+                  <div class="menu-item-desc">Curry com champignons, ervilhas, milho verde e hambúrguer de grão de bico empanado.</div>
+                </div>
+                <div class="menu-item-price">R$&nbsp;70</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="menu-section-title">Macarrão Vegetariano / ベジタリアン麺類</h3>
+            <div class="d-flex flex-column gap-3">
+              <div class="menu-item d-flex justify-content-between gap-3">
+                <div>
+                  <div class="menu-item-name">VM-1 Yakisoba vegetariano <span class="menu-item-jp">/ ベジタリアン焼きそば</span></div>
+                  <div class="menu-item-desc">Macarrão frito com legumes, vegetais e cogumelos.</div>
+                </div>
+                <div class="menu-item-price">R$&nbsp;60</div>
+              </div>
+              <div class="menu-item d-flex justify-content-between gap-3">
+                <div>
+                  <div class="menu-item-name">VM-2 Lamen vegetariano <span class="menu-item-jp">/ ベジタリアンラーメン</span></div>
+                  <div class="menu-item-desc">Macarrão chinês, mix de legumes, vegetais, folha de alga marinha e cogumelos.</div>
+                </div>
+                <div class="menu-item-price">R$&nbsp;65</div>
+              </div>
+            </div>
+
+            <h3 class="menu-section-title mt-5">Porções / Individuais Vegetarianas</h3>
+            <div class="d-flex flex-column gap-3">
+              <div class="menu-item d-flex justify-content-between gap-3">
+                <div>
+                  <div class="menu-item-name">PV-1 Oniguiri vegetariano <span class="menu-item-jp">/ ベジタリアンおにぎり</span></div>
+                  <div class="menu-item-desc">Bolinho de arroz triangular com ameixa japonesa.</div>
+                </div>
+                <div class="menu-item-price">R$&nbsp;25</div>
+              </div>
+              <div class="menu-item d-flex justify-content-between gap-3">
+                <div>
+                  <div class="menu-item-name">PV-2 Guioza vegetariano <span class="menu-item-jp">/ ベジタリアンギョーザ (8)</span></div>
+                  <div class="menu-item-desc">8 unidades de pasteizinhos japoneses recheados com legumes e vegetais.</div>
+                </div>
+                <div class="menu-item-price">R$&nbsp;50</div>
+              </div>
+              <div class="menu-item d-flex justify-content-between gap-3">
+                <div>
+                  <div class="menu-item-name">PV-3 Teppanyaki <span class="menu-item-jp">/ ベジタリアン鉄焼き</span></div>
+                  <div class="menu-item-desc">Legumes, vegetais e cogumelos shimeji salteados no óleo de gergelim.</div>
+                </div>
+                <div class="menu-item-price">R$&nbsp;55</div>
+              </div>
+              <div class="menu-item d-flex justify-content-between gap-3">
+                <div>
+                  <div class="menu-item-name">PV-4 Harumaki vegetariano <span class="menu-item-jp">/ ミニ春巻き (8)</span></div>
+                  <div class="menu-item-desc">8 unidades de mini rolinhos primavera vegetarianos.</div>
+                </div>
+                <div class="menu-item-price">R$&nbsp;50</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====== BEBIDAS ====== -->
+      <div class="tab-pane fade" id="tab-bebidas">
+        <h3 class="menu-section-title">Bebidas / ドリンク</h3>
+        <div class="menu-note">
+          <i class="bi bi-exclamation-triangle me-2" style="color:#f0a500;"></i>Álcool proibido para menores de 18 anos. Beba com responsabilidade.
+        </div>
+        <div class="row g-3">
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div><div class="menu-item-name">Água sem gás</div></div>
+              <div class="menu-item-price">R$&nbsp;7</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div><div class="menu-item-name">Água com gás</div></div>
+              <div class="menu-item-price">R$&nbsp;8</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div><div class="menu-item-name">Refrigerantes básicos</div></div>
+              <div class="menu-item-price">R$&nbsp;9</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div><div class="menu-item-name">H2OH</div></div>
+              <div class="menu-item-price">R$&nbsp;12</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">Sucos naturais em jarra</div>
+                <div class="menu-item-desc">Laranja ou Limão</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;16</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div>
+                <div class="menu-item-name">Suco em polpa</div>
+                <div class="menu-item-desc">Maracujá, Acerola ou Abacaxi</div>
+              </div>
+              <div class="menu-item-price">R$&nbsp;14</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div><div class="menu-item-name">Refil de chá verde quente Machâ</div></div>
+              <div class="menu-item-price">R$&nbsp;12</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div><div class="menu-item-name">Refil de chá Miguichá gelado</div></div>
+              <div class="menu-item-price">R$&nbsp;12</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div><div class="menu-item-name">Cerveja Heineken</div></div>
+              <div class="menu-item-price">R$&nbsp;15</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div><div class="menu-item-name">Sakê importado</div></div>
+              <div class="menu-item-price">R$&nbsp;70</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div><div class="menu-item-name">Sakê nacional</div></div>
+              <div class="menu-item-price">R$&nbsp;50</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div><div class="menu-item-name">Saqueirinha (Limão)</div></div>
+              <div class="menu-item-price">R$&nbsp;50</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="menu-item d-flex justify-content-between gap-3">
+              <div><div class="menu-item-name">Café espresso</div></div>
+              <div class="menu-item-price">R$&nbsp;12</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div><!-- /tabContentCardapio -->
+    </div><!-- /pane-restaurante -->
+
+
+    <!-- ══ PANE: DELIVERY ══ -->
+    <div class="tab-pane fade" id="pane-delivery-menu">
+
+      <div class="text-center mb-4 reveal">
+        <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186"
+           target="_blank" class="btn-ifood-main">
+          <svg class="ifood-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 7h-3V6a4 4 0 0 0-8 0v1H5a1 1 0 0 0-1 1v11a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V8a1 1 0 0 0-1-1zm-9-1a2 2 0 0 1 4 0v1h-4V6zm8 13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V9h2v1a1 1 0 0 0 2 0V9h4v1a1 1 0 0 0 2 0V9h2v10z"/>
+          </svg>
+          Pedir no <strong>i<span class="ifood-red-f">f</span>ood</strong>
+          <i class="bi bi-arrow-up-right ms-1"></i>
+        </a>
+      </div>
+
+      <!-- Filtros de categoria -->
+      <div class="delivery-filter reveal mb-4" id="cardapioDeliveryFilter">
+        <button class="df-btn active" data-filter="cd-todos">Todos</button>
+        <button class="df-btn" data-filter="cd-bento">Bentôs</button>
+        <button class="df-btn" data-filter="cd-teishoku">Teishokus</button>
+        <button class="df-btn" data-filter="cd-macarrao">Macarrões</button>
+        <button class="df-btn" data-filter="cd-kare">Karês (Currys)</button>
+        <button class="df-btn" data-filter="cd-domburi">Domburis</button>
+        <button class="df-btn" data-filter="cd-entrada">Entradas/Porções</button>
+        <button class="df-btn" data-filter="cd-bebida">Bebidas</button>
+      </div>
+
+      <!-- Grid de cards -->
+      <div class="row g-3 reveal" id="cardapioDeliveryGrid">
+
+        <!-- ── BENTÔS ── -->
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bento">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Tonkatsu Bentô.png" alt="Tonkatsu Bentô" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Tonkatsu Bentô</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Lombo suíno crocante (Tonkatsu) empanado em panko. Acompanha Gohan com Furikake, Hot Rolls, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+              <div class="delivery-card-price">R$&nbsp;91,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bento">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Torikatsu Bentô.png" alt="Bentô" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Bentô</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Torikatsu (frango crocante empanado), Arroz com Furikake, Hot Rolls, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+              <div class="delivery-card-price">R$&nbsp;91,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bento">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Karaaguê Bentô.png" alt="Karaaguê Bentô" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Karaaguê Bentô</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Karaaguê (frango marinado e frito), Arroz com Furikake, Hot Rolls, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+              <div class="delivery-card-price">R$&nbsp;91,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bento">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Guioza Bentô.png" alt="Guioza Bentô" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Guioza Bentô</div>
+              <div class="delivery-card-desc">Guiozas (Pastéis Japoneses), Arroz com Furikake, Hot Rolls, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+              <div class="delivery-card-price">R$&nbsp;91,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bento">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Bentô Vegetariano.png" alt="Bentô Vegetariano" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Bentô Vegetariano</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Vegetais refogados, Gohan com Furikake, Guiozas Vegetarianos, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+              <div class="delivery-card-price">R$&nbsp;91,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bento">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Salmon Bentô.png" alt="Salmon Bentô" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Salmon Bentô</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Salmão Grelhado suculento, Gohan com Furikake, Guioza, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+              <div class="delivery-card-price">R$&nbsp;99,90</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── TEISHOKUS ── -->
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-teishoku">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Tonkatsu Teishoku.png" alt="Tonkatsu Teishoku" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Tonkatsu Teishoku</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Lombo suíno empanado em panko, frito e servido em fatias. Acompanha Gohan, Missoshiro e Salada de Repolho fresca.</div>
+              <div class="delivery-card-price">R$&nbsp;91,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-teishoku">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/karaaguê teishoku.png" alt="Karaaguê Teishoku" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Karaaguê Teishoku</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Frango Karaaguê marinado em temperos orientais, dourado e super crocante. Inclui Gohan, Missoshiro e Salada de Repolho fresca.</div>
+              <div class="delivery-card-price">R$&nbsp;91,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-teishoku">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Chicken Katsu Teishoku.png" alt="Torikatsu Teishoku" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Torikatsu Teishoku</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Filé de frango empanado na farinha panko (Torikatsu), crocante e suculento. Acompanha Gohan, Missoshiro e Salada de Repolho fresca.</div>
+              <div class="delivery-card-price">R$&nbsp;85,90</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-teishoku">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Guioza Teishoku.jpeg" alt="Guioza Teishoku" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Guioza Teishoku</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">6 Guiozas fritos, crocantes por fora e suculentos por dentro, com mix de carnes e vegetais. Acompanha Gohan e Missoshiro.</div>
+              <div class="delivery-card-price">R$&nbsp;86,90</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-teishoku">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Omurice.jpeg" alt="Omurice Teishoku" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Omurice Teishoku</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Risoto Japonês (chahan) coberto por Omelete macia, finalizado com Molho Oriental. Acompanha Missoshiro.</div>
+              <div class="delivery-card-price">R$&nbsp;79,90</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── MACARRÕES ── -->
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-macarrao">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/YakisobaTradicional.png" alt="Yakisoba Completo" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Yakisoba Completo</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Macarrão oriental com Carne Bovina, Frango e Camarão. Refogado com legumes, vegetais e cogumelos frescos.</div>
+              <div class="delivery-card-price">R$&nbsp;91,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-macarrao">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/YakisobaTradicional.png" alt="Yakisoba Tradicional" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Yakisoba Tradicional</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Macarrão frito com Molho Yakisoba especial, legumes, vegetais e cogumelos. Escolha entre Carne ou Frango.</div>
+              <div class="delivery-card-price">R$&nbsp;81,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-macarrao">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Tyashu Lamen.jpeg" alt="Tyashu Lamen" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Tyashu Lamen</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Caldo rico à base de carnes suína e frango, com macarrão oriental fresco e fatias de Tyashu (lombo suíno marinado).</div>
+              <div class="delivery-card-price">R$&nbsp;85,90</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── KARÊS (CURRYS) ── -->
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-kare">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Tori Katsu Kare.png" alt="Torikatsu Karê" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Torikatsu Karê</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Filé de frango empanado na farinha panko servido com Curry Japonês autêntico e Gohan.</div>
+              <div class="delivery-card-price">R$&nbsp;89,90</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-kare">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Tonkatsu Kare.png" alt="Tonkatsu Karê" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Tonkatsu Karê</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Molho Curry Japonês acompanhado de Tonkatsu (lombo suíno empanado) e Gohan.</div>
+              <div class="delivery-card-price">R$&nbsp;97,90</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── DOMBURIS ── -->
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-domburi">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/curry e domburi.jpeg" alt="Katsudom" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Katsudom</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Gohan coberto com Tonkatsu, ovo cremoso e cebola em molho oriental levemente adocicado.</div>
+              <div class="delivery-card-price">R$&nbsp;91,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-domburi">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/curry e domburi.jpeg" alt="Torikatsudom" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Torikatsudom</div>
+              <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+              <div class="delivery-card-desc">Gohan coberto com Torikatsu, ovo cremoso e cebola em molho oriental levemente adocicado.</div>
+              <div class="delivery-card-price">R$&nbsp;85,90</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── ENTRADAS/PORÇÕES ── -->
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-entrada">
+          <div class="delivery-card">
+            <div class="delivery-card-img delivery-card-no-image">
+              <span class="dc-placeholder-icon"><i class="bi bi-camera"></i></span>
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Oniguiri</div>
+              <div class="delivery-card-desc">Bolinho de arroz japonês recheado e envolto por alga nori.</div>
+              <div class="delivery-card-price">R$&nbsp;38,50</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-entrada">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Karaaguê.jpeg" alt="Karaaguê" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Karaaguê</div>
+              <div class="delivery-card-desc">Frango frito japonês marinado ao molho de gengibre e alho, crocante por fora e macio por dentro.</div>
+              <div class="delivery-card-price">R$&nbsp;84,90</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-entrada">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Nikuman.jpeg" alt="Nikuman" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Nikuman</div>
+              <div class="delivery-card-desc">Porção com 2 unidades de pãozinho japonês cozido no vapor, recheado com carne suína temperada.</div>
+              <div class="delivery-card-price">R$&nbsp;34,90</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-entrada">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Guioza.jpeg" alt="Guiozas" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Guiozas</div>
+              <div class="delivery-card-desc">8 unidades recheadas com mix de carne suína, bovina e vegetais.</div>
+              <div class="delivery-card-price">R$&nbsp;79,90</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-entrada">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Hot Roll.jpeg" alt="Hot Rolls" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Hot Rolls</div>
+              <div class="delivery-card-desc">6 unidades recheadas com salmão, cream cheese e arroz, fritos até ficarem dourados.</div>
+              <div class="delivery-card-price">R$&nbsp;59,99</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── BEBIDAS ── -->
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bebida">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/H2OH-Limoneto.jpg" alt="H2OH" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">H2OH</div>
+              <div class="delivery-card-desc">Sabores: Limão / Limoneto</div>
+              <div class="delivery-card-price">R$&nbsp;15,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bebida">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Guaraná_Antarctica.jpg" alt="Guaraná" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Guaraná</div>
+              <div class="delivery-card-desc">Refrigerante gelado</div>
+              <div class="delivery-card-price">R$&nbsp;12,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bebida">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/guarana_zero.jpg" alt="Guaraná Zero" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Guaraná Zero</div>
+              <div class="delivery-card-desc">Sem açúcar</div>
+              <div class="delivery-card-price">R$&nbsp;12,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bebida">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Coca-Cola.jpg" alt="Coca-Cola" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Coca-Cola</div>
+              <div class="delivery-card-desc">Refrigerante gelado</div>
+              <div class="delivery-card-price">R$&nbsp;12,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bebida">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/Coca-ColaSemAçúcar.jpg" alt="Coca-Cola Zero" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Coca-Cola Zero</div>
+              <div class="delivery-card-desc">Sem açúcar</div>
+              <div class="delivery-card-price">R$&nbsp;12,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bebida">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/agua_tonica.jpg" alt="Água Tônica 350ml" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Água Tônica 350ml</div>
+              <div class="delivery-card-desc">350 ml</div>
+              <div class="delivery-card-price">R$&nbsp;12,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bebida">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/agua_sem_gas.jpg" alt="Água sem gás" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Água sem gás</div>
+              <div class="delivery-card-desc">500 ml</div>
+              <div class="delivery-card-price">R$&nbsp;9,00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-category="cd-bebida">
+          <div class="delivery-card">
+            <div class="delivery-card-img">
+              <img src="./img/agua_com_gas.jpg" alt="Água com gás" loading="lazy" />
+              <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+            </div>
+            <div class="delivery-card-body">
+              <div class="delivery-card-name">Água com gás</div>
+              <div class="delivery-card-desc">500 ml</div>
+              <div class="delivery-card-price">R$&nbsp;10,00</div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /cardapioDeliveryGrid -->
+    </div><!-- /pane-delivery-menu -->
+
+    </div><!-- /mainCardapioContent -->
+  </div>
+</section>
+
+
+<!-- ===================== Mais Pedidos ===================== -->
+<section id="galeria">
+  <div class="container">
+
+    <div class="text-center reveal mb-5">
+      <p class="section-subtitle">さらに注文</p>
+      <h2 class="section-title">Mais Pedidos</h2>
+      <div class="divider-jp"><span>&#x2767;</span></div>
+      <p style="color:var(--grey); max-width:520px; margin:0 auto; font-size:.9rem; line-height:1.75;">
+        Os pratos mais apreciados pelos nossos clientes — preparados com tradição, ingredientes selecionados e dedicação artesanal.
+      </p>
+    </div>
+
+    <div class="row g-4 g-lg-5 reveal justify-content-center showcase-stagger">
+
+      <!-- Tokyo Box -->
+      <div class="col-12 col-sm-10 col-md-4">
+        <article class="showcase-card">
+          <div class="showcase-card-img">
+            <img src="./img/Tokyo box.png" alt="Tokyo Box" loading="lazy" />
+
+          </div>
+          <div class="showcase-card-body">
+            <span class="showcase-card-jp">東京弁当</span>
+            <h3 class="showcase-card-name">Tokyo Box</h3>
+            <div class="showcase-card-divider"></div>
+            <p class="showcase-card-desc">Empanado de carne suína, refogado de carne bovina ao molho de soja, salmão grelhado, pãozinho cozido ao vapor recheado com carne suína e repolho, Missôshiru e arroz branco.</p>
+            <div class="showcase-card-badge">Favorito dos clientes</div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Guioza -->
+      <div class="col-12 col-sm-10 col-md-4">
+        <article class="showcase-card">
+          <div class="showcase-card-img">
+            <img src="./img/Guioza.jpeg" alt="Guioza" loading="lazy" />
+
+          </div>
+          <div class="showcase-card-body">
+            <span class="showcase-card-jp">ギョーザ (8)</span>
+            <h3 class="showcase-card-name">Guioza</h3>
+            <div class="showcase-card-divider"></div>
+            <p class="showcase-card-desc">8 unidades de pasteizinhos japoneses recheados com mix de carne suína, bovina e repolho, fritos até dourar com casca crocante e interior suculento.</p>
+            <div class="showcase-card-badge">Favorito dos clientes</div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Okinawa Lamen -->
+      <div class="col-12 col-sm-10 col-md-4">
+        <article class="showcase-card">
+          <div class="showcase-card-img">
+            <img src="./img/Okinawa Lamen.jpeg" alt="Okinawa Lamen" loading="lazy" />
+
+          </div>
+          <div class="showcase-card-body">
+            <span class="showcase-card-jp">沖縄ラーメン</span>
+            <h3 class="showcase-card-name">Okinawa Lamen</h3>
+            <div class="showcase-card-divider"></div>
+            <p class="showcase-card-desc">Macarrão chinês em caldo rico com panceta à moda oriental, ovo cozido, alga marinha e alho poró.</p>
+            <div class="showcase-card-badge">Favorito dos clientes</div>
+          </div>
+        </article>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ===================== DELIVERY ===================== -->
+<section id="delivery">
+  <div class="container">
+
+    <!-- Cabeçalho -->
+    <div class="text-center reveal mb-4">
+      <p class="section-subtitle">デリバリー</p>
+      <h2 class="section-title">cardápio do Delivery</h2>
+      <div class="divider-jp"><span>&#x2767;</span></div>
+      <p style="color:var(--grey); max-width:520px; margin:0 auto 28px; font-size:.9rem;">
+        Peça pelo iFood e receba a culinária japonesa autêntica do Kenji direto na sua casa.
+      </p>
+
+      <!-- Perfil estilo iFood -->
+      <div class="ifood-profile-card reveal">
+        <img src="./img/favicon.png" alt="Kenji Culinária Oriental" class="ifood-avatar" />
+        <div class="ifood-profile-info">
+          <div class="ifood-profile-name">Kenji Culinária Oriental</div>
+          <div class="ifood-profile-meta">
+            <span><i class="bi bi-star-fill" style="color:#f0c040;"></i> 5.0</span>
+            <span>•</span>
+            <span>Av. Paulista, 1274 — Bela Vista</span>
+            <span>•</span>
+            <span>Japonês</span>
+          </div>
+        </div>
+        <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186"
+           target="_blank" class="btn-ifood-main">
+          <svg class="ifood-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 7h-3V6a4 4 0 0 0-8 0v1H5a1 1 0 0 0-1 1v11a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V8a1 1 0 0 0-1-1zm-9-1a2 2 0 0 1 4 0v1h-4V6zm8 13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V9h2v1a1 1 0 0 0 2 0V9h4v1a1 1 0 0 0 2 0V9h2v10z"/>
+          </svg>
+          Pedir agora no <strong>i<span class="ifood-red-f">f</span>ood</strong>
+          <i class="bi bi-arrow-up-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Faixa de informações -->
+    <div class="delivery-info-strip reveal mb-5">
+      <div class="di-item">
+        <i class="bi bi-clock-fill"></i>
+        <span>~45–60 min de entrega</span>
+      </div>
+      <div class="di-item">
+        <i class="bi bi-geo-alt-fill"></i>
+        <span>Av. Paulista, 1274 — Bela Vista</span>
+      </div>
+      <div class="di-item">
+        <i class="bi bi-star-fill" style="color:#f0c040;"></i>
+        <span>5.0 estrelas no iFood</span>
+      </div>
+      <div class="di-item">
+        <i class="bi bi-bag-check-fill" style="color:#EA1D2C;"></i>
+        <span>Disponível pelo app iFood</span>
+      </div>
+    </div>
+
+    <!-- Filtros de categoria -->
+    <div class="delivery-filter reveal mb-4" id="deliveryFilter">
+      <button class="df-btn active" data-filter="todos">Todos</button>
+      <button class="df-btn" data-filter="bento">Bentôs</button>
+      <button class="df-btn" data-filter="teishoku">Teishokus</button>
+      <button class="df-btn" data-filter="macarrao">Macarrões</button>
+      <button class="df-btn" data-filter="kare">Karês (Currys)</button>
+      <button class="df-btn" data-filter="domburi">Domburis</button>
+      <button class="df-btn" data-filter="entrada">Entradas/Porções</button>
+      <button class="df-btn" data-filter="bebida">Bebidas</button>
+    </div>
+
+    <!-- Grid de pratos com imagens -->
+    <div class="row g-3 reveal" id="deliveryGrid">
+
+      <!-- ── BENTÔS ── -->
+      <div class="col-6 col-md-4 col-lg-3" data-category="bento">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Tonkatsu Bentô.png" alt="Tonkatsu Bentô" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=b72a72b7-5b1f-4941-993c-d4f2539550a7" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Tonkatsu Bentô</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Lombo suíno crocante (Tonkatsu) empanado em panko. Acompanha Gohan com Furikake, Hot Rolls, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+            <div class="delivery-card-price">R$&nbsp;91,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bento">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Torikatsu Bentô.png" alt="Bentô" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=97bb5b66-79bf-4fd5-a9bf-d25c7f7454c9" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Torikatsu Bentô</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Torikatsu (frango crocante empanado), Arroz com Furikake, Hot Rolls, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+            <div class="delivery-card-price">R$&nbsp;91,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bento">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Karaaguê Bentô.png" alt="Karaaguê Bentô" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=780fc793-dfd3-468d-a611-8ab7178d7db8" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Karaaguê Bentô</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Karaaguê (frango marinado e frito), Arroz com Furikake, Hot Rolls, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+            <div class="delivery-card-price">R$&nbsp;91,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bento">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Guioza Bentô.png" alt="Guioza Bentô" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=dee06e75-7924-42f9-98de-43ee2a6e1719" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Guioza Bentô</div>
+            <div class="delivery-card-desc">Guiozas (Pastéis Japoneses), Arroz com Furikake, Hot Rolls, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+            <div class="delivery-card-price">R$&nbsp;91,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bento">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Bentô Vegetariano.png" alt="Bentô Vegetariano" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=18c4e278-7106-49d3-9d8a-2b18fa7a8c6e" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Bentô Vegetariano</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Vegetais refogados, Gohan com Furikake, Guiozas Vegetarianos, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+            <div class="delivery-card-price">R$&nbsp;91,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bento">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Salmon Bentô.png" alt="Salmon Bentô" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=50b1c9ea-951b-448b-bb7d-ac94452b9f9c" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Salmon Bentô</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Salmão Grelhado suculento, Gohan com Furikake, Guioza, Soja Japonesa e Gengibre. Inclui Missoshiro.</div>
+            <div class="delivery-card-price">R$&nbsp;99,90</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── TEISHOKUS ── -->
+      <div class="col-6 col-md-4 col-lg-3" data-category="teishoku">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Chicken Katsu Teishoku.png" alt="Tonkatsu Teishoku" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=14616cc9-c838-46be-9b07-f71e2186a0d3" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Tonkatsu Teishoku</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Lombo suíno empanado em panko, frito e servido em fatias. Acompanha Gohan, Missoshiro e Salada de Repolho fresca.</div>
+            <div class="delivery-card-price">R$&nbsp;91,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="teishoku">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/karaaguê teishoku.png" alt="Karaaguê Teishoku" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=8f75a9a5-c15e-4956-a36f-5c1519bf8747" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Karaaguê Teishoku</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Frango Karaaguê marinado em temperos orientais, dourado e super crocante. Inclui Gohan, Missoshiro e Salada de Repolho fresca.</div>
+            <div class="delivery-card-price">R$&nbsp;91,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="teishoku">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Tonkatsu Teishoku.png" alt="Tonkatsu Teishoku" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=41223b37-62fb-4c24-a685-38ff2d9eaaa5" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Torikatsu Teishoku</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Filé de frango empanado na farinha panko (Torikatsu), crocante e suculento. Acompanha Gohan, Missoshiro e Salada de Repolho fresca.</div>
+            <div class="delivery-card-price">R$&nbsp;85,90</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="teishoku">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Guioza Teishoku.jpeg" alt="Guioza Teishoku" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=2485f069-de9a-482d-ad91-57f72cee53de" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Guioza Teishoku</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">6 Guiozas fritos, crocantes por fora e suculentos por dentro, com mix de carnes e vegetais. Acompanha Gohan e Missoshiro.</div>
+            <div class="delivery-card-price">R$&nbsp;86,90</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="teishoku">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Omurice.jpeg" alt="Omurice Teishoku" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=40bd865d-e15b-4a5b-aa2f-f577b61cb4f3" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Omurice Teishoku</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Risoto Japonês (chahan) coberto por Omelete macia, finalizado com Molho Oriental. Acompanha Missoshiro.</div>
+            <div class="delivery-card-price">R$&nbsp;79,90</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── MACARRÕES ── -->
+      <div class="col-6 col-md-4 col-lg-3" data-category="macarrao">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/YakisobaCompleto.avif" alt="Yakisoba Completo" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=769b03de-62c2-46f6-b2a2-222dfa26e970" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Yakisoba Completo</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Macarrão oriental com Carne Bovina, Frango e Camarão. Refogado com legumes, vegetais e cogumelos frescos.</div>
+            <div class="delivery-card-price">R$&nbsp;91,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="macarrao">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/YakisobaTradicional.png" alt="Yakisoba Tradicional" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=230680e5-1242-4001-87da-a158dbe21e7c" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Yakisoba Tradicional</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Macarrão frito com Molho Yakisoba especial, legumes, vegetais e cogumelos. Escolha entre Carne ou Frango.</div>
+            <div class="delivery-card-price">R$&nbsp;81,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="macarrao">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Tyashu Lamen.jpeg" alt="Tyashu Lamen" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=9f395c6f-a480-4c6e-a842-42e7ae886c04" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Tyashu Lamen</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Caldo rico à base de carnes suína e frango, com macarrão oriental fresco e fatias de Tyashu (lombo suíno marinado).</div>
+            <div class="delivery-card-price">R$&nbsp;85,90</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── KARÊS (CURRYS) ── -->
+      <div class="col-6 col-md-4 col-lg-3" data-category="kare">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Tori Katsu Kare.png" alt="Torikatsu Karê" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=f231b0f9-ae58-4c0f-92a1-0a02543861c3" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Torikatsu Karê</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Filé de frango empanado na farinha panko servido com Curry Japonês autêntico e Gohan.</div>
+            <div class="delivery-card-price">R$&nbsp;89,90</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="kare">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Tonkatsu Kare.png" alt="Tonkatsu Karê" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=36e8c405-302d-4e5d-bb03-4e392079e650" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Tonkatsu Karê</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Molho Curry Japonês acompanhado de Tonkatsu (lombo suíno empanado) e Gohan.</div>
+            <div class="delivery-card-price">R$&nbsp;97,90</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── DOMBURIS ── -->
+      <div class="col-6 col-md-4 col-lg-3" data-category="domburi">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Katsudom.avif" alt="Katsudom" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=0a1f29b0-0b5c-4d7c-a8f1-8cc061220c95" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Katsudom</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Gohan coberto com Tonkatsu, ovo cremoso e cebola em molho oriental levemente adocicado.</div>
+            <div class="delivery-card-price">R$&nbsp;91,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="domburi">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Torikatsudom.jpeg" alt="Torikatsudom" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=62a239b8-abce-4ab9-a0e9-fe41f4cf8b29" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Torikatsudom</div>
+            <div class="delivery-card-serve"><i class="bi bi-person me-1"></i>Serve 1 pessoa</div>
+            <div class="delivery-card-desc">Gohan coberto com Torikatsu, ovo cremoso e cebola em molho oriental levemente adocicado.</div>
+            <div class="delivery-card-price">R$&nbsp;85,90</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── ENTRADAS/PORÇÕES ── -->
+      <div class="col-6 col-md-4 col-lg-3" data-category="entrada">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Oniguiri (Bolinho de arroz).avif" alt="Oniguiri" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=d903b270-465b-4198-915a-5064b77fb014" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Oniguiri</div>
+            <div class="delivery-card-desc">Bolinho de arroz japonês recheado e envolto por alga nori.</div>
+            <div class="delivery-card-price">R$&nbsp;38,50</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="entrada">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Karaaguê.jpeg" alt="Karaaguê" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=af5ee90a-645a-4bc6-b196-74b80409e2b8" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Karaaguê</div>
+            <div class="delivery-card-desc">Frango frito japonês marinado ao molho de gengibre e alho, crocante por fora e macio por dentro.</div>
+            <div class="delivery-card-price">R$&nbsp;84,90</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="entrada">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Nikuman.jpeg" alt="Nikuman" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=e13bf58d-9466-480d-8084-39c353e7e3bd" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Nikuman</div>
+            <div class="delivery-card-desc">Porção com 2 unidades de pãozinho japonês cozido no vapor, recheado com carne suína temperada.</div>
+            <div class="delivery-card-price">R$&nbsp;34,90</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="entrada">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Guioza.jpeg" alt="Guiozas" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=0bd16f9a-5e54-4740-8bc4-c7235cb16747" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Guiozas</div>
+            <div class="delivery-card-desc">8 unidades recheadas com mix de carne suína, bovina e vegetais.</div>
+            <div class="delivery-card-price">R$&nbsp;79,90</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="entrada">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Hot Roll.jpeg" alt="Hot Rolls" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=2a577c43-3788-4f9b-88b3-85d01485a800" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Hot Rolls</div>
+            <div class="delivery-card-desc">6 unidades recheadas com salmão, cream cheese e arroz, fritos até ficarem dourados.</div>
+            <div class="delivery-card-price">R$&nbsp;59,99</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── BEBIDAS ── -->
+      <div class="col-6 col-md-4 col-lg-3" data-category="bebida">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/H2OH-Limoneto.jpg" alt="H2OH" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=4d1989f7-2ab6-4e80-b785-6d369863d688" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">H2OH</div>
+            <div class="delivery-card-desc">Sabores: Limão / Limoneto <br>500 ml</div>
+            <div class="delivery-card-price">R$&nbsp;15,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bebida">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Guaraná_Antarctica.jpg" alt="Guaraná" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=4e31c355-8f44-4288-b4fe-2578700e17e9" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Guaraná</div>
+            <div class="delivery-card-desc">350 ml</div>
+            <div class="delivery-card-price">R$&nbsp;12,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bebida">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/guarana_zero.jpg" alt="Guaraná Zero" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=a469696b-a472-4f82-9c67-e942bbd1c4ed" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Guaraná Zero</div>
+            <div class="delivery-card-desc">350 ml</div>
+            <div class="delivery-card-price">R$&nbsp;12,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bebida">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Coca-Cola.jpg" alt="Coca-Cola" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=f9c7d4ae-a684-4a1b-aca8-8416848ddb3f" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Coca-Cola</div>
+            <div class="delivery-card-desc">350 ml</div>
+            <div class="delivery-card-price">R$&nbsp;12,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bebida">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/Coca-ColaSemAçúcar.jpg" alt="Coca-Cola Zero" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=4f0d0332-1bec-4cfc-ac9d-67efc724b491" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Coca-Cola Zero</div>
+            <div class="delivery-card-desc">350 ml</div>
+            <div class="delivery-card-price">R$&nbsp;12,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bebida">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/agua_tonica.jpg" alt="Água Tônica 350ml" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=76f23040-521c-48ea-8931-079ccc9093a0" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Água Tônica 350ml</div>
+            <div class="delivery-card-desc">350 ml</div>
+            <div class="delivery-card-price">R$&nbsp;12,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bebida">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/agua_sem_gas.jpg" alt="Água sem gás" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=38c938a8-b739-40b7-8ef8-eb5c1eaf8fa3" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Água sem gás</div>
+            <div class="delivery-card-desc">500 ml</div>
+            <div class="delivery-card-price">R$&nbsp;9,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-category="bebida">
+        <div class="delivery-card">
+          <div class="delivery-card-img">
+            <img src="./img/agua_com_gas.jpg" alt="Água com gás" loading="lazy" />
+            <div class="delivery-card-overlay"><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186?prato=bcb8a728-30df-4aed-85bf-a4a8508066f7" target="_blank" class="dc-pedir-btn">Pedir</a></div>
+          </div>
+          <div class="delivery-card-body">
+            <div class="delivery-card-name">Água com gás</div>
+            <div class="delivery-card-desc">500 ml</div>
+            <div class="delivery-card-price">R$&nbsp;10,00</div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /deliveryGrid -->
+
+    <!-- CTA final -->
+    <div class="text-center mt-5 pt-3 reveal">
+      <p style="color:var(--grey); font-size:.85rem; margin-bottom:18px;">
+        Cardápio completo com todos os pratos disponíveis no iFood
+      </p>
+      <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/kenji-culinaria-oriental-bela-vista/19dbdf1c-0f2b-4570-ba46-5fa083149186"
+         target="_blank" class="btn-ifood-main btn-ifood-lg">
+        <svg class="ifood-icon" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M19 7h-3V6a4 4 0 0 0-8 0v1H5a1 1 0 0 0-1 1v11a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V8a1 1 0 0 0-1-1zm-9-1a2 2 0 0 1 4 0v1h-4V6zm8 13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V9h2v1a1 1 0 0 0 2 0V9h4v1a1 1 0 0 0 2 0V9h2v10z"/>
+        </svg>
+        Pedir no <strong>iFood</strong> agora
+        <i class="bi bi-arrow-up-right ms-1"></i>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================== CONTATO ===================== -->
+<section id="contato">
+  <div class="container">
+
+    <div class="text-center reveal mb-5">
+      <p class="section-subtitle">コンタクト</p>
+      <h2 class="section-title">Nos encontre</h2>
+      <div class="divider-jp"><span>&#x2767;</span></div>
+    </div>
+
+    <div class="row g-4 reveal">
+      <div class="col-md-6 col-lg-3">
+        <div class="contato-card">
+          <div class="contato-icon"><i class="bi bi-clock-fill"></i></div>
+          <div class="contato-label">Horário / 営業時間</div>
+          <span id="statusRestaurante" style="font-size:.72rem; display:block; margin-bottom:8px;"></span>
+          <p style="font-size:.88rem; color:var(--grey-light); margin:0;">
+            Domingo a Sexta-feira<br>
+            <strong style="color:var(--white);">11h00 – 15h00</strong><br><br>
+            <span style="color:var(--red);">Sábado: fechado</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="contato-card">
+          <div class="contato-icon"><i class="bi bi-geo-alt-fill"></i></div>
+          <div class="contato-label">Endereço / 住所</div>
+          <p style="font-size:.88rem; color:var(--grey-light); margin:0 0 4px;">
+            <strong style="color:var(--white);">Av. Paulista, Bela Vista</strong>
+          </p>
+          <p style="font-size:.8rem; color:var(--grey); margin:0 0 14px;">
+            No coração de São Paulo, dentro da galeria comercial do número 1274.
+          </p>
+          <a href="https://www.google.com/search?q=kenji+restaurante+oriental" target="_blank"
+             class="btn-ver-google mb-3">
+            <i class="bi bi-geo-alt-fill"></i> Ver no Google
+          </a>
+          <p style="font-size:.76rem; color:var(--grey); margin:12px 0 0; line-height:1.65;">
+            Venha conhecer o Kenji Restaurante Oriental e desfrutar de uma autêntica experiência da culinária japonesa em uma das regiões mais movimentadas de São Paulo.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="contato-card">
+          <div class="contato-icon"><i class="bi bi-chat-dots-fill"></i></div>
+          <div class="contato-label">Reservas / 予約</div>
+          <p style="font-size:.84rem; color:var(--grey-light); margin:0 0 14px; line-height:1.6;">
+            Para reservas, dúvidas ou informações sobre nossos pratos, entre em contato pelos canais abaixo:
+          </p>
+          <div style="font-size:.82rem; color:var(--grey-light); margin-bottom:16px; display:flex; align-items:center; gap:7px;">
+            <i class="bi bi-whatsapp" style="color:#25D366; font-size:1rem;"></i>
+            <strong style="color:var(--white);">+55 11 94079-8318</strong>
+          </div>
+          <div class="d-flex flex-column gap-2">
+            <a href="https://wa.me/5511940798318" target="_blank" class="btn-whatsapp">
+              <i class="bi bi-whatsapp me-1"></i> Reservar pelo WhatsApp
+            </a>
+            <a href="https://www.instagram.com/kenji_restaurante_oriental/" target="_blank"
+               class="btn-instagram-outline">
+              <i class="bi bi-instagram me-1"></i> Ver Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="contato-card">
+          <div class="contato-icon"><i class="bi bi-instagram"></i></div>
+          <div class="contato-label">Redes Sociais</div>
+          <p style="font-size:.88rem; color:var(--grey-light); margin:0 0 16px;">
+            Acompanhe novidades, promoções e os pratos do dia no nosso Instagram.
+          </p>
+          <a href="https://www.instagram.com/kenji_restaurante_oriental/" target="_blank"
+            class="instagram-strip text-decoration-none">
+            <i class="bi bi-instagram"></i>
+            <div>
+              <div style="font-size:.68rem; font-weight:700; color:var(--white); word-break:break-all;">@kenji_restaurante_oriental</div>
+              <div style="font-size:.68rem; color:var(--grey);">Siga no Instagram</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <div class="footer-logo"><span>賢治</span> Kenji Restaurante Oriental</div>
+        <p style="font-size:.78rem; color:var(--grey); margin-top:8px; margin-bottom:0;">
+          Culinária Japonesa Tradicional
+        </p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <div class="footer-jp">食・和・心</div>
+        <div style="font-size:.75rem; color:var(--black-4); margin-top:4px;">Comida · Harmonia · Coração</div>
+      </div>
+    </div>
+    <hr class="footer-hr" />
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+      <p class="footer-copy mb-0">© <span id="anoFooter">2026</span> Kenji Restaurante Oriental. Todos os direitos reservados.</p>
+      <div class="d-flex gap-3">
+        <a href="#hero" style="font-size:.75rem; color:var(--grey);">Início</a>
+        <a href="sobre.html" style="font-size:.75rem; color:var(--grey);">Sobre</a>
+        <a href="#cardapio" style="font-size:.75rem; color:var(--grey);">Cardápio</a>
+        <a href="#galeria" style="font-size:.75rem; color:var(--grey);">Mais Pedidos</a>
+        <a href="https://www.instagram.com/kenji_restaurante_oriental/" target="_blank" style="font-size:.75rem; color:var(--red);">
+          <i class="bi bi-instagram"></i> Instagram
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Botão voltar ao topo -->
+<button id="btnTopo" title="Voltar ao topo">
+  <i class="bi bi-chevron-up"></i>
+</button>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+<!-- VLibras -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+</body>
+</html>
+
