@@ -149,3 +149,8 @@ body {
   background-color: 
   #cc0000 !important; border: none; 
 }
+
+.text-mutedsmall {
+  color: #ffffff !important; 
+  font-size: 0.8rem;
+}
